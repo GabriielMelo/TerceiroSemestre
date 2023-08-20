@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\autologon.CSED\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\autologon.CSED\\.nuget\\packages",
+      "C:\\Users\\Gabri\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Gabri\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {
