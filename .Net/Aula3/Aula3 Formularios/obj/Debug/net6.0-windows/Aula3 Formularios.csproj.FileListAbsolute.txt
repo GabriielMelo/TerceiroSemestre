@@ -1,0 +1,17 @@
+C:\Users\autologon.CSED\Documents\Aula3\Aula3\Aula3 Formularios\bin\Debug\net6.0-windows\Aula3 Formularios.exe
+C:\Users\autologon.CSED\Documents\Aula3\Aula3\Aula3 Formularios\bin\Debug\net6.0-windows\Aula3 Formularios.deps.json
+C:\Users\autologon.CSED\Documents\Aula3\Aula3\Aula3 Formularios\bin\Debug\net6.0-windows\Aula3 Formularios.runtimeconfig.json
+C:\Users\autologon.CSED\Documents\Aula3\Aula3\Aula3 Formularios\bin\Debug\net6.0-windows\Aula3 Formularios.dll
+C:\Users\autologon.CSED\Documents\Aula3\Aula3\Aula3 Formularios\bin\Debug\net6.0-windows\ref\Aula3 Formularios.dll
+C:\Users\autologon.CSED\Documents\Aula3\Aula3\Aula3 Formularios\bin\Debug\net6.0-windows\Aula3 Formularios.pdb
+C:\Users\autologon.CSED\Documents\Aula3\Aula3\Aula3 Formularios\obj\Debug\net6.0-windows\Aula3 Formularios.csproj.AssemblyReference.cache
+C:\Users\autologon.CSED\Documents\Aula3\Aula3\Aula3 Formularios\obj\Debug\net6.0-windows\Aula3_Formularios.frmAula3.resources
+C:\Users\autologon.CSED\Documents\Aula3\Aula3\Aula3 Formularios\obj\Debug\net6.0-windows\Aula3 Formularios.csproj.GenerateResource.cache
+C:\Users\autologon.CSED\Documents\Aula3\Aula3\Aula3 Formularios\obj\Debug\net6.0-windows\Aula3 Formularios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\autologon.CSED\Documents\Aula3\Aula3\Aula3 Formularios\obj\Debug\net6.0-windows\Aula3 Formularios.AssemblyInfoInputs.cache
+C:\Users\autologon.CSED\Documents\Aula3\Aula3\Aula3 Formularios\obj\Debug\net6.0-windows\Aula3 Formularios.AssemblyInfo.cs
+C:\Users\autologon.CSED\Documents\Aula3\Aula3\Aula3 Formularios\obj\Debug\net6.0-windows\Aula3 Formularios.csproj.CoreCompileInputs.cache
+C:\Users\autologon.CSED\Documents\Aula3\Aula3\Aula3 Formularios\obj\Debug\net6.0-windows\Aula3 Formularios.dll
+C:\Users\autologon.CSED\Documents\Aula3\Aula3\Aula3 Formularios\obj\Debug\net6.0-windows\ref\Aula3 Formularios.dll
+C:\Users\autologon.CSED\Documents\Aula3\Aula3\Aula3 Formularios\obj\Debug\net6.0-windows\Aula3 Formularios.pdb
+C:\Users\autologon.CSED\Documents\Aula3\Aula3\Aula3 Formularios\obj\Debug\net6.0-windows\Aula3 Formularios.genruntimeconfig.cache
