@@ -19,10 +19,11 @@ public class Poupanca extends Conta{
     }
     
      public void Sacar(double valor){
-        if(valor>this.getSaldo()){
+        double aux_saldo = getSaldo();
+        if(valor>aux_saldo){
             System.out.println("Saldo insuficiente");
         } else {
-            this.setSaldo(valor-getSaldo());
+            setSaldo(valor-aux_saldo);
         }
     }
     public String toString(){
