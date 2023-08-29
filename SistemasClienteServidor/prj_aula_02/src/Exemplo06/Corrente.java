@@ -1,5 +1,5 @@
 
-package Exemplo05;
+package Exemplo06;
 
 
 public class Corrente extends Conta{

@@ -1,8 +1,8 @@
 
-package Exemplo05;
+package Exemplo06;
 
 
-public class Poupanca extends Conta{
+public class Poupanca extends Conta {
   private int aniversario;
     
     public Poupanca(String banco, int agencia, int conta,int aniversario){

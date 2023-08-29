@@ -1,28 +1,30 @@
-package Exemplo05;
+package Exemplo06;
 
 // implementar metodo saca
-public abstract class Conta {
+public abstract class Conta implements Iconta {
 
     String banco;
     int agencia;
     int conta;
     double saldo;
-    
-    public Conta(String banco, int agencia,int conta){
+
+    public Conta(String banco, int agencia, int conta) {
         this.setBanco(banco);
         this.setAgencia(agencia);
         this.setConta(conta);
         this.setSaldo(0);
     }
 
-    public void Depositar(double valor){
-        if(valor>0){
+    public void Depositar(double valor) {
+        if (valor > 0) {
             this.saldo += valor;
         } else {
             System.out.println("Valor inválido");
         }
-    };
-    
+    }
+
+    ;
+
     public void setBanco(String banco) {
         if (banco.length() >= 3) {
             this.banco = banco;
@@ -52,14 +54,12 @@ public abstract class Conta {
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
-    
-    public abstract void Sacar(double valor);
-    
-    public  String toString(){
-        return    "Banco: " + this.banco
-                + "\nAgencia: "+ this.agencia
+
+    public String toString() {
+        return "Banco: " + this.banco
+                + "\nAgencia: " + this.agencia
                 + "\nConta: " + this.conta
-                + "\nSaldo: "  + this.saldo;
+                + "\nSaldo: " + this.saldo;
     }
 
     public double getSaldo() {
