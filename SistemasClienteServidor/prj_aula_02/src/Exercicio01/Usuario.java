@@ -26,9 +26,12 @@ public class Usuario extends Pessoa implements Imprimivel, Seguranca {
 
     @Override
     public boolean validar() {
-        return false;
+        if (!this.nomeUsuario.isEmpty() && !this.senha.isEmpty()) {
+            return true;
+        } else {
+            return false;
+        }
     }
-
 
     public String getnomeUsuario() {
         return nomeUsuario;

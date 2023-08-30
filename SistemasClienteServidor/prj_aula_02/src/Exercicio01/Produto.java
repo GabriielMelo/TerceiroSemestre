@@ -46,7 +46,11 @@ public class Produto implements Imprimivel, Seguranca {
 
     @Override
     public boolean validar() {
-        return false;
+        if (!this.descricao.isEmpty() && this.quantidade > 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
 
