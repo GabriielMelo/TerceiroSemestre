@@ -14,7 +14,7 @@ public class Produto implements Imprimivel, Seguranca {
     }
 
     public void setDescricao(String descricao) {
-        if (descricao.length() < 1) {
+        if (descricao.isEmpty()) {
             System.out.println("Descrição do produto inválida");
         } else {
             this.descricao = descricao;
@@ -35,12 +35,13 @@ public class Produto implements Imprimivel, Seguranca {
 
     @Override
     public String formatoString() {
-        return null;
+        return  "Descrição do Produto : " + this.descricao + nlin +
+                "Quantidade : " + this.quantidade;
     }
 
     @Override
     public void formatoSystemOut() {
-
+        System.out.println(this.formatoString());
     }
 
     @Override

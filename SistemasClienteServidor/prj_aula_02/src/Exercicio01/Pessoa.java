@@ -1,7 +1,7 @@
 package Exercicio01;
 
 public abstract class Pessoa {
-    protected String nomecompleto;
+    protected String nomeCompleto;
     protected int idade;
 
     public Pessoa(){
@@ -9,16 +9,20 @@ public abstract class Pessoa {
     }
 
     public Pessoa(String nc,int i){
-        this.nomecompleto = nc;
-        this.idade = i;
+        this.setnomeCompleto(nc);
+        this.setIdade(i);
     }
 
-    public String getNomecompleto() {
-        return nomecompleto;
+    public String getnomeCompleto() {
+        return nomeCompleto;
     }
 
-    public void setNomecompleto(String nomecompleto) {
-        this.nomecompleto = nomecompleto;
+    public void setnomeCompleto(String nomeCompleto) {
+        if(this.nomeCompleto.isEmpty()){
+            System.out.println("Nome inválido");
+        } else {
+            this.nomeCompleto = nomeCompleto;
+        }
     }
 
     public int getIdade() {
@@ -26,7 +30,11 @@ public abstract class Pessoa {
     }
 
     public void setIdade(int idade) {
+        if(idade<=0 || idade >=110){
+            System.out.println("Idade inválida");
+        } else {
         this.idade = idade;
+        }
     }
 }
 
