@@ -1,0 +1,45 @@
+03-Oct-2023 19:09:59.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.93
+03-Oct-2023 19:09:59.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 22:43:14 UTC
+03-Oct-2023 19:09:59.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.93.0
+03-Oct-2023 19:09:59.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Oct-2023 19:09:59.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Oct-2023 19:09:59.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Oct-2023 19:09:59.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-19
+03-Oct-2023 19:09:59.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           19.0.1+10-21
+03-Oct-2023 19:09:59.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Oct-2023 19:09:59.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\mikae\Documents\GitHub\TerceiroSemestre\SistemasClienteServidor\apache-tomcat-8.5.93
+03-Oct-2023 19:09:59.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\mikae\Documents\GitHub\TerceiroSemestre\SistemasClienteServidor\apache-tomcat-8.5.93
+03-Oct-2023 19:09:59.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Oct-2023 19:09:59.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Oct-2023 19:09:59.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Oct-2023 19:09:59.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Oct-2023 19:09:59.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Oct-2023 19:09:59.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\mikae\Documents\GitHub\TerceiroSemestre\SistemasClienteServidor\apache-tomcat-8.5.93\conf\logging.properties
+03-Oct-2023 19:09:59.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Oct-2023 19:09:59.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Oct-2023 19:09:59.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Oct-2023 19:09:59.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Oct-2023 19:09:59.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\mikae\Documents\GitHub\TerceiroSemestre\SistemasClienteServidor\apache-tomcat-8.5.93
+03-Oct-2023 19:09:59.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\mikae\Documents\GitHub\TerceiroSemestre\SistemasClienteServidor\apache-tomcat-8.5.93
+03-Oct-2023 19:09:59.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\mikae\Documents\GitHub\TerceiroSemestre\SistemasClienteServidor\apache-tomcat-8.5.93\temp
+03-Oct-2023 19:09:59.561 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+03-Oct-2023 19:09:59.692 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+03-Oct-2023 19:09:59.693 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-Oct-2023 19:09:59.709 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+03-Oct-2023 19:09:59.838 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Oct-2023 19:09:59.915 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1876 ms
+03-Oct-2023 19:10:00.177 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Oct-2023 19:10:00.178 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.93]
+03-Oct-2023 19:10:00.224 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\mikae\Documents\GitHub\TerceiroSemestre\SistemasClienteServidor\apache-tomcat-8.5.93\webapps\docs]
+03-Oct-2023 19:10:01.551 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [287] milliseconds.
+03-Oct-2023 19:10:01.657 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\mikae\Documents\GitHub\TerceiroSemestre\SistemasClienteServidor\apache-tomcat-8.5.93\webapps\docs] has finished in [1,434] ms
+03-Oct-2023 19:10:01.658 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\mikae\Documents\GitHub\TerceiroSemestre\SistemasClienteServidor\apache-tomcat-8.5.93\webapps\examples]
+03-Oct-2023 19:10:04.585 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\mikae\Documents\GitHub\TerceiroSemestre\SistemasClienteServidor\apache-tomcat-8.5.93\webapps\examples] has finished in [2,927] ms
+03-Oct-2023 19:10:04.588 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\mikae\Documents\GitHub\TerceiroSemestre\SistemasClienteServidor\apache-tomcat-8.5.93\webapps\host-manager]
+03-Oct-2023 19:10:04.916 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\mikae\Documents\GitHub\TerceiroSemestre\SistemasClienteServidor\apache-tomcat-8.5.93\webapps\host-manager] has finished in [329] ms
+03-Oct-2023 19:10:04.916 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\mikae\Documents\GitHub\TerceiroSemestre\SistemasClienteServidor\apache-tomcat-8.5.93\webapps\manager]
+03-Oct-2023 19:10:05.083 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\mikae\Documents\GitHub\TerceiroSemestre\SistemasClienteServidor\apache-tomcat-8.5.93\webapps\manager] has finished in [167] ms
+03-Oct-2023 19:10:05.083 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\mikae\Documents\GitHub\TerceiroSemestre\SistemasClienteServidor\apache-tomcat-8.5.93\webapps\ROOT]
+03-Oct-2023 19:10:05.583 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\mikae\Documents\GitHub\TerceiroSemestre\SistemasClienteServidor\apache-tomcat-8.5.93\webapps\ROOT] has finished in [499] ms
+03-Oct-2023 19:10:05.590 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Oct-2023 19:10:05.901 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5983 ms
