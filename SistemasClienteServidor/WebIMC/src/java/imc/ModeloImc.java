@@ -4,7 +4,8 @@ public class ModeloImc {
 
     private Double peso, altura, imc;
     private String classificacao;
-
+        
+    
     public ModeloImc(double peso, double altura) {
         this.setPeso(peso);
         this.setAltura(altura);

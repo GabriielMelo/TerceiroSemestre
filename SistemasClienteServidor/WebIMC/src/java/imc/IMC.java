@@ -6,11 +6,14 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import java.text.DecimalFormat;
 
 public class IMC extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        
+        DecimalFormat df = new DecimalFormat("#.##");
         
         response.setContentType("text/html;charset=UTF-8");
         try {
@@ -34,7 +37,7 @@ public class IMC extends HttpServlet {
             out.println("<body>");
             out.println(" <div class=\"container\">");
             out.println("<div class=\"conteudo\">");
-            out.println("<p>Seu imc é de : " + imc.getImc());   
+            out.println("<p>Seu imc é de : " + df.format(imc.getImc()));   
             out.println("<p>Classificação : " + imc.getClassificacao() + "<br><br>");
             out.println("<a href=\"/WebIMC/\"><button class=\"btn\">Voltar</button></a>");
             out.println(" </div>");
