@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #268a04;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .container {
+            background-color: #d4ff00;
+            text-align: center;
+            padding: 20px;
+            border: solid 2px #180c50;
+        }
+
+        .conteudo {
+            padding: 50px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .conteudo input {
+            margin: 10px;
+            width: 300px;
+            height: 25px;
+        }
+
+         label {
+            display: block;
+            font-weight: bold;
+            color: #180c50;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .btn {
+            border: none;
+            background-color: #0b0243;
+            padding: 5px;
+            border-radius: 5px;
+            color: white;
+            width: 40px;    
+        }
+
+        .btn:hover {
+            cursor: pointer;
+            background-color: #988ccf;
+            padding: 7px;
+        }
+
+        .text {
+            height: 20px;
+            border: solid 2px #452abd;
+            padding: 5px;
+        }
+    </style>
+    <title>IMC</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="conteudo">
+            <form action="Energia" method="post">
+                <h1>Efetuar o Calculo de energia</h1>
+                <label>Digite o seu consumo em kWh : </label>
+                <input type="text" name="kWh" placeholder="kWh... " >
+                <input type="submit" value="Calcular" name="Calcular" class="btn">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
