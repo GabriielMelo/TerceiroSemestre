@@ -42,7 +42,7 @@ public class EnergiaModel {
         if(consumo<=200){
            setCofins(fornecimento*0.0614722);
         } else {
-            setCofins(fornecimento*0.730751);
+            setCofins(fornecimento*0.0730751);
         }
     }
     
