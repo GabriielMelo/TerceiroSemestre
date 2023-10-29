@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Web_Atividade2.props" />
+</Project>

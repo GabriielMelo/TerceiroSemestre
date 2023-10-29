@@ -1,0 +1,35 @@
+﻿<body>
+    <div id="alterar" class="container" style="display: flex; align-items:
+center; justify-content: center; text-align: center; margin-top: 140px;
+width: 450px; border-radius: 3px; background-color:rgba(255, 255, 255, 0.3);font-family:Verdana;">
+        <div class="mb-3">
+            <div style="padding: 20px;">
+                <label for="formGroupExampleInput" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Insira o nome" style="width: 180px; border: 1px solid #020225; margin-top: 10px;background-color:rgba(255, 255, 255, 0.6);">
+                <br>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Insira o Email" style="width: 180px; border: 1px solid #020225; margin-top: 10px; background-color:rgba(255, 255, 255, 0.6);"> <br>
+                    <input type="submit" value="Enviar" onclick="alterarConteudo()" style="border-radius: 4px; background-color: rgb(104, 104, 216); color: white; border: none; padding: 7px;">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function alterarConteudo() {
+            const nome = document.getElementById("formGroupExampleInput").value;
+            const email = document.getElementById("formGroupExampleInput2").value;
+
+            if (nome !== "" && email !== "") {
+                let alterar = document.getElementById("alterar");
+                alterar.style.display = "none";
+            } else {
+                window.alert("Atenção! Campos Vazios!");
+            }
+        }
+    </script>
+
+
+</body>
