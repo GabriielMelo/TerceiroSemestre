@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mikae\\Documents\\GitHub\\Projeto-Interdisciplinar-III\\Projeto-Interdisciplinar-III.csproj": {}
+    "C:\\Users\\User\\Documents\\GitHub\\TerceiroSemestre\\PI\\Projeto-Interdisciplinar-III\\Projeto-Interdisciplinar-III.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mikae\\Documents\\GitHub\\Projeto-Interdisciplinar-III\\Projeto-Interdisciplinar-III.csproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\TerceiroSemestre\\PI\\Projeto-Interdisciplinar-III\\Projeto-Interdisciplinar-III.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mikae\\Documents\\GitHub\\Projeto-Interdisciplinar-III\\Projeto-Interdisciplinar-III.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\TerceiroSemestre\\PI\\Projeto-Interdisciplinar-III\\Projeto-Interdisciplinar-III.csproj",
         "projectName": "Projeto-Interdisciplinar-III",
-        "projectPath": "C:\\Users\\mikae\\Documents\\GitHub\\Projeto-Interdisciplinar-III\\Projeto-Interdisciplinar-III.csproj",
-        "packagesPath": "C:\\Users\\mikae\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mikae\\Documents\\GitHub\\Projeto-Interdisciplinar-III\\obj\\",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\TerceiroSemestre\\PI\\Projeto-Interdisciplinar-III\\Projeto-Interdisciplinar-III.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\TerceiroSemestre\\PI\\Projeto-Interdisciplinar-III\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mikae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
